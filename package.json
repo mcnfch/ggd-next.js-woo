@@ -1,0 +1,41 @@
+{
+  "name": "groovy-gallery-designs",
+  "version": "2.2.13",
+  "private": true,
+  "author": "zackha",
+  "description": "Headless storefront for Woocommerce (Nuxt/Vue)",
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "dev:ssl": "nuxt dev --https --ssl-cert localhost.pem --ssl-key localhost-key.pem",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "release": "bumpp"
+  },
+  "dependencies": {
+    "@nuxt/image": "^1.9.0",
+    "@nuxt/ui": "^2.20.0",
+    "@nuxthub/core": "0.8.11",
+    "graphql": "^16.10.0",
+    "graphql-request": "^7.1.2",
+    "notivue": "^2.4.5",
+    "nuxt": "^3.15.2",
+    "nuxt-graphql-request": "^8.1.1",
+    "sitemap": "^8.0.0",
+    "swiper": "^11.2.0",
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "@iconify-json/iconamoon": "^1.2.2",
+    "@iconify-json/svg-spinners": "^1.2.2",
+    "@nuxtjs/sitemap": "^7.0.2",
+    "@vueuse/core": "^10.11.1",
+    "@vueuse/nuxt": "^10.11.1",
+    "lru-cache": "^10.4.3",
+    "ohash": "^1.1.4",
+    "wrangler": "^3.102.0"
+  },
+  "packageManager": "pnpm@9.15.3+sha512.1f79bc245a66eb0b07c5d4d83131240774642caaa86ef7d0434ab47c0d16f66b04e21e0c086eb61e62c77efc4d7f7ec071afad3796af64892fae66509173893a"
+}
